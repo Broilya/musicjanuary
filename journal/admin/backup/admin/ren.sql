@@ -1,0 +1,14 @@
+RENAME TABLE `classes`            TO `sch_classes`            ;
+RENAME TABLE `config`             TO `sch_config`             ;
+RENAME TABLE `disciplines`        TO `sch_disciplines`        ;
+RENAME TABLE `information`        TO `sch_information`        ;
+RENAME TABLE `lessons`            TO `sch_lessons`            ;
+RENAME TABLE `quarters`           TO `sch_quarters`           ;
+RENAME TABLE `schedule`           TO `sch_schedule`           ;
+RENAME TABLE `school_years`       TO `sch_school_years`       ;
+RENAME TABLE `students`           TO `sch_students`           ;
+RENAME TABLE `students_in_class`  TO `sch_students_in_class`  ;
+RENAME TABLE `students_on_lesson` TO `sch_students_on_lesson` ;
+RENAME TABLE `subjects`           TO `sch_subjects`           ;
+RENAME TABLE `teachers`           TO `sch_teachers`           ;
+RENAME TABLE `users`              TO `sch_users`              ;

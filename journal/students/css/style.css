@@ -1,0 +1,471 @@
+.button{
+	height:30px;
+border-color: #D4E1B1 #87A03D #87A03D #C5D6A0;
+border-style:solid;
+border-width:1px;
+background: #c8d999;
+cursor:pointer;
+color: #506A1C;
+}
+.button:hover {
+border-color:#FFCC66 #FFFF99 #FFFF99 #FFCC66;
+border-style:solid;
+border-width:1px;
+background:#FFFF99;
+color: #8C8C00;
+}
+
+body{
+	font: 1em Arial, Helvetica, sans-serif;
+	background: #ffffff;
+	color: #333333;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.head_top{
+	color: #7f961d;
+	font-size: 16px;
+	margin-left: 7px;
+    text-align: left;
+}
+td{
+	font: 14px Arial, Helvetica, sans-serif;
+}
+a{
+	color: #3399cc;
+}
+a:hover{
+	text-decoration: none;
+}
+.edit{
+	margin-left: 25px;
+	background: url(../images/edit.png) no-repeat;
+}
+th{
+	font: bold 1em Arial, Helvetica, sans-serif;
+	color: 
+}
+table.table_menu{
+	width: 480px;
+	background: #F8F8FF;
+}
+td.border_left{
+	background: url(../images/border.gif) repeat-y left;
+}
+td.border_right{
+	background: url(../images/border.gif) repeat-y right;
+}
+td.border_top{
+	background: url(../images/border.gif) repeat-x top;
+}
+td.border_bottom{
+	background: url(../images/border.gif) repeat-x bottom;
+}
+td.padding{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#rounded-corner
+{
+	margin-top: 7px;
+	width: 650px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+#rounded-corner2
+{
+	margin-top: 7px;
+	width: 550px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+
+#rounded-corner2 thead th.rounded-left
+{
+	background: #c8d999 url('../images/left.png') left -1px no-repeat;
+}
+#rounded-corner2 thead th.rounded-right
+{
+	background: #c8d999 url('../images/right.png') right -1px no-repeat;
+}
+#rounded-corner2 th
+{
+	padding: 8px;
+	font-weight: normal;
+	text-align: left;
+	font-size: 14px;
+	color: #6B8E23;
+	background: #c8d999;
+}
+#rounded-corner2 td
+{
+	padding: 8px;
+	background: #e8efd4;
+	border-top: 1px solid #fff;
+	color: #669933;
+}
+#rounded-corner2 tfoot td.rounded-foot-left
+{
+	background: #e8efd4 url('../images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner2 tfoot td.rounded-foot-right
+{
+	background: #e8efd4 url('../images/botright.png') right bottom no-repeat;
+}
+#rounded-corner2 tbody tr:hover td
+{
+	background: #dde4c8;
+}
+#rounded-corner2 tbody td a, tbody th a {
+ font-weight:normal; 
+ display:block;
+ 
+ padding-left:22px;
+ color: #669933;
+}
+#rounded-corner2 tbody td a:hover, tbody th a:hover {
+ text-decoration:none;
+}
+#rounded-corner2 tfoot td a.add, tfoot th a.add {
+ font-weight:normal; 
+ display:block;
+ background: transparent url(../images/add.png) no-repeat 0% 50%;
+ padding-left:22px;
+ color: #669933;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rounded-corner thead th.rounded-left
+{
+	background: #c8d999 url('../images/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-right
+{
+	background: #c8d999 url('../images/right.png') right -1px no-repeat;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	text-align: left;
+	font-size: 14px;
+	color: #6B8E23;
+	background: #c8d999;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8efd4;
+	border-top: 1px solid #fff;
+	color: #669933;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8efd4 url('../images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8efd4 url('../images/botright.png') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #dde4c8;
+}
+#rounded-corner tbody td a, tbody th a {
+ font-weight:normal; 
+ display:block;
+ background: transparent url(../images/edit.png) no-repeat 0% 50%;
+ padding-left:22px;
+ color: #669933;
+}
+#rounded-corner tbody td a, tbody th a {
+ font-weight:normal; 
+ display:block;
+ 
+ padding-left:22px;
+ color: #669933;
+}
+#rounded-corner tbody td a:hover, tbody th a:hover {
+ text-decoration:none;
+}
+#rounded-corner tfoot td a.add, tfoot th a.add {
+ font-weight:normal; 
+ display:block;
+ background: transparent url(../images/add.png) no-repeat 0% 50%;
+ padding-left:22px;
+ color: #669933;
+}
+
+#edit
+{
+margin: 5px;
+
+border: 1px solid #c8d999;
+}
+#edit td {
+	background: #e8efd4;
+}
+#edit tr.TableHead, th.TableHead{
+	background: #c8d999;
+	color: #666666;
+}
+#edit_in td{
+	background: #dde4c8;
+	color: #666600;	
+	padding: 5px;
+}
+
+#loginform_error {
+	color: red;
+}
+
+#clas_sel_form {
+	position: absolute;
+	top: 35px;
+	left: 200px;
+}
+
+#date_d_0 {
+	position: absolute;
+	top: 105px;
+	left: 430px;
+}
+
+#date_d_1 {
+	position: absolute;
+	top: 237px;
+	left: 347px;
+}
+
+#date_d_2 {
+	position: absolute;
+	top: 375px;
+    left: 430px;
+}
+
+#date_d_3 {
+	position: absolute;
+	top: 105px;
+    left: 962px;
+}
+
+#date_d_4 {
+	position: absolute;
+    top: 237px;
+    left: 963px;
+}
+
+#date_d_5 {
+	position: absolute;
+	top: 375px;
+    left: 965px;
+}
+
+#month {
+	position: absolute;
+	top: 40px;
+    left: 730px;
+}
+
+td.discipline {font-size: 12px;}
+
+#discipline_0 {
+	position: absolute;
+	top: 92px;
+    left: 50px;
+}
+
+#discipline_1 {
+	position: absolute;
+	top: 225px;
+    left: 50px;
+}
+
+#discipline_2 {
+	position: absolute;
+	top: 362px;
+    left: 50px;
+}
+
+#discipline_3 {
+	position: absolute;
+    top: 92px;
+    left: 585px;
+}
+
+#discipline_4 {
+	position: absolute;
+    top: 225px;
+    left: 650px;
+}
+
+#discipline_5 {
+	position: absolute;
+    top: 362px;
+    left: 585px;
+}
+
+#update {
+	position: absolute;
+    top: 487px;
+    left: 940px;
+    font-size: 12px;
+
+}
+
+#nav {position: absolute;
+    top: 568px;
+    left: 338px;
+}
+
+#oblozhka {background: url(../images/oblozhka.jpg) no-repeat;}
+#oblozhka2 {background: url(../images/BG.jpg) no-repeat;}
+#dis2 {
+	position: absolute;
+    top: 487px;
+    left: 440px;
+    font-size: 12px;
+
+}
+
+div#container{width: 500px; margin:0 auto}
+h1{ color: #F60; margin: 1em 0 0; letter-spacing: -2px; }
+p{margin: 0 0 1.7em; }
+
+/*---------- bubble tooltip -----------*/
+a.tt{
+    position:relative;
+    z-index:24;
+    color:#3CA3FF;
+	font-weight:bold;
+    text-decoration:none;
+}
+a.tt span{ display: none; }
+
+/*background:; ie hack, something must be changed in a for ie to execute it*/
+a.tt:hover{ z-index:25; color: #aaaaff; background:;}
+a.tt:hover span.tooltip{
+    display:block;
+    position:absolute;
+    top:0px; left:0;
+	padding: 15px 0 0 0;
+	width:200px;
+	color: #993300;
+    text-align: center;
+	filter: alpha(opacity:90);
+	KHTMLOpacity: 0.90;
+	MozOpacity: 0.90;
+	opacity: 0.90;
+}
+a.tt:hover span.top{
+	display: block;
+	padding: 30px 8px 0;
+    background: url(../images/bubble.gif) no-repeat top;
+}
+a.tt:hover span.middle{ /* different middle bg for stretch */
+	display: block;
+	padding: 0 8px; 
+	background: url(../images/bubble_filler.gif) repeat bottom; 
+}
+a.tt:hover span.bottom{
+	display: block;
+	padding:3px 8px 10px;
+	color: #548912;
+    background: url(../images/bubble.gif) no-repeat bottom;
+}
+
+ul.services_menu {text-align: left; display: block; width: 400px;}
+
+ul.services_menu li {padding-bottom: 5px; list-style: none;}
+
+#rounded-corner-admin
+{
+	margin-top: 7px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner-admin thead th.rounded-left
+{
+	background: #c8d999 url('../images/left.png') left -1px no-repeat;
+}
+#rounded-corner-admin thead th.rounded-right
+{
+	background: #c8d999 url('../images/right.png') right -1px no-repeat;
+}
+#rounded-corner-admin th
+{
+	padding: 8px;
+	font-weight: normal;
+	text-align: left;
+	font-size: 14px;
+	color: #6B8E23;
+	background: #c8d999;
+}
+#rounded-corner-admin td
+{
+	padding: 8px;
+	background: #e8efd4;
+	border-top: 1px solid #fff;
+	color: #669933;
+}
+#rounded-corner-admin tfoot td.rounded-foot-left
+{
+	background: #e8efd4 url('../images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner-admin tfoot td.rounded-foot-right
+{
+	background: #e8efd4 url('../images/botright.png') right bottom no-repeat;
+}
+#rounded-corner-admin tbody tr:hover td
+{
+	background: #dde4c8;
+}
+#rounded-corner-admin tbody td a, tbody th a {
+ font-weight:normal; 
+ display:block;
+ background: transparent url(../images/edit.png) no-repeat 0% 50%;
+ padding-left:22px;
+ color: #669933;
+}
+#rounded-corner-admin tbody td a:hover, tbody th a:hover {
+ text-decoration:none;
+}
+#rounded-corner-admin tfoot td a.add, tfoot th a.add {
+ font-weight:normal; 
+ display:block;
+
+ padding-left:22px;
+ color: #669933;
+}

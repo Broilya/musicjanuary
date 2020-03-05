@@ -1,0 +1,25 @@
+User-agent: * 
+Disallow: /admin/
+Disallow: /images/
+Disallow: /include/
+Disallow: /install/
+Disallow: /js/
+Disallow: /student_photo/
+Disallow: /teacher_photo/
+Disallow: /teachers/
+Disallow: /updates/
+Crawl-Delay: 20
+
+
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /images/
+Disallow: /include/
+Disallow: /install/
+Disallow: /js/
+Disallow: /student_photo/
+Disallow: /teacher_photo/
+Disallow: /teachers/
+Disallow: /updates/
+
+Crawl-Delay: 20

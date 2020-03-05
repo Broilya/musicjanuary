@@ -1,0 +1,5 @@
+*.txt_vrt{ margin:0; padding:0; border:0; outline:none; font-weight:inherit; font-style:inherit; font-family:inherit; font-size:100%; vertical-align:baseline; }
+		
+.vertical { overflow:hidden; font-size:12px; float:left; margin-right:0px; line-height:30px; position:relative; white-space:nowrap; width:30px; height:120px; float: right;}
+.vertical object { width:30px; height:120px; display:block; }
+.vertical span { display:none;}

@@ -1,0 +1,1 @@
+window.pass_login = null;

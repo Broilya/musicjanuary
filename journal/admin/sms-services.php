@@ -1,0 +1,3 @@
+<?
+echo "sms=send";
+?>
